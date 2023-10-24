@@ -7,8 +7,8 @@ let totalImages = 0;
 let ready = false;
 
 const count = 30;
-const apiKey = "ys2IHVZoCwgYvUyrAjHVwCLVYNj2KPv-qAHOdxhcyPE";
-const apiUrl =  `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${count}`;
+const apiKey = 'jFgS8tteGD425f4oZfygQVaVnD6gt6GucN2yyz3xFek';
+const apiUrl = `https://api.unsplash.com/photos/random?client_id=${apiKey}&count=${count}`;
 
 //see if all images were loaded
 const imageLoaded = () => {
